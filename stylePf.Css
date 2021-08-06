@@ -1,0 +1,181 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin:0;
+}
+section {
+    background-color:beige
+    border solid black 1px }
+.hero{
+    background-color: rgba(59, 134, 109, 0.87);
+    height : 100vh;
+color: wheat;
+font-size: 40px;
+}
+footer{
+    background-color: darkgray  ;
+    color:wheat;
+    text-align: center;
+padding: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-items: center;
+    font-size: 50px;
+    list-style-type: none;
+    align-items: baseline;
+}
+li{
+    width : 200px;
+    padding: 50px;
+    justify-self: center;
+}
+div , ul {
+    padding-top: 40px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    margin-top: 40px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+   font-size: 50px;
+   font-weight: 300;
+    margin: 0;
+}
+.hero-text{
+    margin-left: 139px;
+    height:70%;
+    }
+.hero-area{
+    display: flex;
+    height: 27%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40vh;
+}
+.button{
+    width:200px;
+    height:70px;
+    background-color:greenyellow;
+    margin-left: 80px;
+    position:static;
+    margin-top: 5vh;
+    border-radius: 60px;
+    font-size: 35px;
+   font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: plum;
+    color:purple ;
+}
+.socials{
+    padding-bottom: 200px ;
+}
+#logo{
+    height: 20vh;
+    width: 20vh;
+    font-size: 200px;
+    margin-top:40px;
+    padding-left: 20px;
+}
+.social{
+    margin:60px;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.headshot{
+    width: 400px;
+    border-radius: 200px;
+}
+.headshot-container{
+    display: flex;
+    align-items:center ;
+}
+.ProjectCard {
+    Width: 400px;
+    height: 500px;
+    box-shadow: 5px 5px 20px darkgray;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+@media only screen and (max-width: 1050px) {
+    .project-container{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    
+}
+#Mymainprojects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subtext{
+    font-size:  15px;
+    font-weight: 300;
+    font-style:oblique;
+}
+.ProjectCard{
+    text-align: center;
+}
+.Project-Image1{
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 125px;
+
+}
+.Project-Image2 , .Project-Image3 , .Project-Image4 {
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 100px;
+}
+.project-link {
+    text-decoration: none;
+    color: darksalmon;
+}
+.a{
+    text-decoration: none;
+    color:wheat;
+}
+#hamburger{
+    border:0;
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+display: none;}
+input{
+    border-radius: 150px;
+    background-color: blueviolet;
+    border-style: dotted;
+    font-size: 35px;
+}
